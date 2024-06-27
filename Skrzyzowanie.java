@@ -51,7 +51,7 @@ public class Skrzyzowanie extends JPanel implements MouseListener {
     }
     private void drawMap(Graphics2D g2d){ //rysowanie mapy
         tlotoolkit = Toolkit.getDefaultToolkit();
-        tloimage = tlotoolkit.getImage("GraSkrzyzowanie\\background.jpg");
+        tloimage = tlotoolkit.getImage("background.jpg");
         g2d.drawImage(tloimage,0,0,1280,720,null);
         g2d.setColor(Color.GRAY);
         g2d.fillRect(0,250,1280,200);
